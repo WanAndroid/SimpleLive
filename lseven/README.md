@@ -236,7 +236,7 @@ TOOLCHAIN=/home/xxx/android/android-ndk-r10/toolchains/arm-linux-androideabi-4.9
     
 **step2. 导入so以及include文件内容**
 
-so放置到src/main/jni/armeabi目录下，也可以随意放置目录，不过build.gradle需要进行配置
+so放置到src/main/jniLibs/armeabi目录下，也可以随意放置目录，不过build.gradle需要进行配置
 
     sourceSets {
         main {
