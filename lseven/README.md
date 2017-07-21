@@ -193,11 +193,11 @@ https://github.com/dxjia/ffmpeg-compile-shared-library-for-android
     build_one
 
 
-NDK=/home/xxx/android/android-ndk-r10 更改为自己安装的ndk位置
+NDK=/home/xxx/android-ndk-r14b 更改为自己安装的ndk位置
 
 SYSROOT=$NDK/platforms/android-16/arch-arm/指定的ndk platform的路径，一定要选择比你的目标机器使用的版本低的，比如你的手机是android-15版本，那么就选择低于15的
 
-TOOLCHAIN=/home/xxx/android/android-ndk-r10/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 更改为自己的toolchains对应的arm-linux
+TOOLCHAIN=/home/xxx/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 更改为自己的toolchains对应的arm-linux
 
 **step4. 执行build_android_arm.sh**
     
